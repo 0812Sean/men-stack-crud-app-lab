@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creat a New Food</title>
+</head>
+<body>
+    <h1>Creat a New Food</h1>
+    <form action='/foods' method='POST'>
+        <lable for="name">Name:</lable>
+        <input type="text" name="name" id="name"/>
+
+        <label for="isReadyToEat">Ready to Eat?</label>
+        <input type="checkbox" name="isReadyToEat"/>
+        <button type="sumbit">Add Foods</button>
+    </form>
+    <a href="/foods/">Back to Foods</a>
+</body>
+</html>
